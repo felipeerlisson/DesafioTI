@@ -1,0 +1,57 @@
+﻿@model DesafioTI.Models.Venda
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Excluir</h2>
+
+<h3>Você tem certeza disso?</h3>
+    <div>
+        <h4>Vendas</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Valor)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Valor)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.IdItem)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.IdItem)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Quantidade)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Quantidade)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Cliente)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                <a class="btn btn-danger btn-excluir" role="button" @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>

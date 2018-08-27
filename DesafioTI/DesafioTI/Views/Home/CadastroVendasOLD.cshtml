@@ -1,0 +1,38 @@
+﻿@model DesafioTI.Models.Vendas
+@{
+    ViewBag.Title = "CadastroVendas";
+}
+
+<h2>Cadastro Vendas</h2>
+<form action="ListagemVendas" method="post">
+    <fieldset>
+        <legend>Vendas</legend>
+        <div>
+            <label for="Valors">Valor da Venda</label>
+        </div>
+        <div>
+            <input type="number" value="@Model.Valor" id="Valor" name="Valor" />
+        </div>
+        <div>
+            <label for="Item">Item</label>
+        </div>
+        <div>
+            <input type="number" value="@Model.Item" id="Item" name="Item" />
+        </div>
+        <div>
+            <label for="Quantidade">Quantidade</label>
+        </div>
+        <div>
+            <input type="number" value="@Model.Quantidade" id="Quantidade" name="Quantidade" />
+        </div>
+        <div>
+            <label for="Cliente">Cliente</label>
+        </div>
+        <div>
+            <input type="text" value="@Model.Cliente" id="Cliente" name="Cliente" />
+        </div>
+        <p><input type="submit" name="name" value="Enviar" /></p>
+    </fieldset>
+
+</form>
+

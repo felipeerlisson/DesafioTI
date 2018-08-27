@@ -1,0 +1,44 @@
+﻿@model DesafioTI.Models.Cliente
+@{
+    ViewBag.Title = "CadastroCliente";
+}
+
+<h2>Cadastro Cliente</h2>
+<form action="ListagemCliente" method="post">
+    <fieldset>
+        <legend>Pessoa</legend>
+        <div>
+            <label for="ClienteId">Cliente ID</label>
+        </div>
+        <div>
+            <input type="number" value="@Model.ClienteId" id="ClienteId" name="ClienteId" />
+        </div>
+        <div>
+            <label for="Nome">Nome</label>
+        </div>
+        <div>
+            <input type="text" value="@Model.Nome" id="Nome" name="Nome" />
+        </div>
+        <div>
+            <label for="DataDeNascimento">Data de Nascimento</label>
+        </div>
+        <div>
+            <input type="number" value="@Model.DataDeNascimento" id="DataDeNascimento" name="DataDeNascimento" placeholder="Ex:02/12/1997" />
+        </div>
+        <div>
+            <label for="Endereço">Endereço</label>
+        </div>
+        <div>
+            <input type="text" value="@Model.Endereço" id="Endereço" name="Endereço" />
+        </div>
+        <div>
+            <label for="QuantidadeDeCompras">Quantidade de compras</label>
+        </div>
+        <div>
+            <input type="number" value="@Model.QuantidadeDeCompras" id="QuantidadeDeCompras" name="QuantidadeDeCompras" />
+        </div>
+        <p><input type="submit" name="name" value="Enviar" /></p>
+    </fieldset>
+
+</form>
+

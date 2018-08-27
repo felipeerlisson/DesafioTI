@@ -1,0 +1,12 @@
+~~~~~~~~Oque foi preciso aprender:~~~~~~~~
+
+Pesquisei procurei tutoriais, foruns etc... sobre:
+C# POO (Aprender sobre metodos na classe ações etc... como tratar com métodos e classes públcias)
+ASP.NET MVC (Estudei sobre os controllers as views e classes,emcapsular, herança, polimorfismo, construtor, sobrecarga, helpers, "razor",Regras de negócios, Rotas, scaffold para ediçao, exclusão dos meus itens >> CRUD, Get, Post, cshtml, bootstrap, html, css etc...)
+
+~~~~~~~~~Feedback~~~~~~~~
+Foi um desafio muito bom, bem complicado no início, saber programação orientada a objeto em c# em console e passar isso pra Asp.Net foi um desafio muito grande até aprender a chamar as classes publicas no controller, botar em uma var e trabalhar com as ações foi o maior desafio etc... 
+
+~~~~~~~~Meu Próximo Desafio~~~~~~~~
+Metodologias ágeis (scrum e kanban) MVP minimo produto viável,  
+API 
